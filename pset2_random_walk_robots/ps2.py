@@ -4,7 +4,7 @@ import math
 import random
 
 from pset2_random_walk_robots.ps2_visualize import *
-import pylab
+import pylab as pylab
 
 # For Python 3.5:
 # from ps2_verify_movement35 import testRobotMovement

@@ -1,7 +1,8 @@
 ###########################
 # 6.00.2x Problem Set 1: Space Cows 
 
-from ps1_partition import get_partitions
+from ps1_partition import *
+
 import time
 
 #================================
@@ -111,8 +112,8 @@ def brute_force_cow_transport(cows,limit=10):
       
       avail_trip = 0
       for trip in trip_list:
-        trip_limit_val = trip_limit(trip,cows)
-        if trip_limit_val>limit:
+        trip_limit_val = trip_limit(trip, cows)
+        if trip_limit_val > limit:
           break
         else:
           avail_trip += 1
